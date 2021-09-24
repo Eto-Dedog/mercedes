@@ -1,7 +1,12 @@
 const modalBtn = document.querySelector('.more')
+const modalBtnTwo = document.querySelector('.more-two')
 const modal = document.querySelector('.modal')
 
 modalBtn.addEventListener('click', () => {
+    modal.classList.remove('hidden')
+})
+
+modalBtnTwo.addEventListener('click', () => {
     modal.classList.remove('hidden')
 })
 
